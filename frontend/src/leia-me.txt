@@ -1,0 +1,11 @@
+C:\Users\pgase\AppData\Roaming\Code\User\settings.json
+    Adicionar:
+    "emmet.syntaxProfiles": { "javascript": "jsx"},
+    "emmet.includeLanguages": { "javascript": "javascriptreact"}
+
+
+pacote de icones
+-> npm install react-icons
+
+instalar a parte de rotas
+-> npm install react-router-dom
