@@ -24,6 +24,6 @@ module.exports = {
             site
         });
     
-        return response.json({ id });
+        return response.json({ id, senha });
     }
 };

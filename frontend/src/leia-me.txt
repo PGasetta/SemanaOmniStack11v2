@@ -9,3 +9,10 @@ pacote de icones
 
 instalar a parte de rotas
 -> npm install react-router-dom
+
+instalar client HTTP
+-> npm install axios
+
+
+instalar react-bootstrap
+-> npm install react-bootstrap
