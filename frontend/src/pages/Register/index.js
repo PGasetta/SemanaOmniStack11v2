@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 
@@ -29,7 +29,7 @@ export default function Register(){
             uf,
             site
         };
-        console.log(data);
+        
         try{
             const response = await api.post('ongs',data);
             alert(`Seu ID de acesso: '${response.data.id}' e senha: '${response.data.senha}'.`);

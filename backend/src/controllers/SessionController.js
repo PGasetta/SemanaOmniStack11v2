@@ -17,7 +17,9 @@ module.exports = {
             }else{
                 if(ong.senha == senha){
                     const { name } = ong;
-                    return response.json({ name });
+                    return response.json({ 
+                        status: '200',
+                        message: name });
                 }else{
                     return response.send( {
                         status: '400',
